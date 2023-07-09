@@ -6,7 +6,7 @@
 !go.sum
 !go.mod
 !pkg/
-!templates/
+!templates/*
 
 !README.md
 !LICENSE
