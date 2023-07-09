@@ -1,0 +1,121 @@
+<!-- I am not a frontend dev so don't judge me xd -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>unnecessarywebserver</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #0f0f2c;
+            color: #ff6bd6;
+            padding: 20px;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 80%;
+            min-width: 60%;
+            min-height: 80%;
+            max-height: fit-content;
+            margin: 0 auto;
+            padding: 70px;
+            background-color: rgba(102, 0, 244, 0.577);
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        h1 {
+            color: #fec1ed;
+            font-size: 48px;
+            letter-spacing: 8px;
+            text-transform: uppercase;
+            margin-bottom: 40px;
+            animation: blink 2.8s infinite;
+        }
+
+        @keyframes blink {
+            0%, 100% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+        }
+
+        h2 {
+            color: #77ffbb;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        h3 {
+            color: #ff6bd6;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #9a77ff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #f08c61;
+        }
+
+        p {
+            color: #fff;
+            font-size: 15px;
+        }
+
+        .social-buttons {
+            margin-top: 5%;
+            margin-bottom: 0%;
+            display: flex;
+            justify-content: center;
+            align-items: end;
+        }
+
+        .social-button {
+            display: inline-block;
+            width: 60px;
+            height: 60px;
+            background-color: #f08c61;
+            border-radius: 50%;
+            margin: 0 20px;
+            text-align: center;
+            line-height: 60px;
+            font-size: 24px;
+            color: #fff;
+            transition: background-color 1s ease;
+        }
+
+        .social-button:hover {
+            background-color: #9a77ff;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="head-title">{{.Message}}</h1>
+        
+        <div class="social-buttons">
+            <a href="https://twitter.com/pehlicd" class="social-button"><i class="fab fa-twitter"></i></a>
+            <a href="https://github.com/pehlicd" class="social-button"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/furkanpehlivan/" class="social-button"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </div>
+</body>
+</html>
