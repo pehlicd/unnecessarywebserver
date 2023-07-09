@@ -13,7 +13,7 @@ go run .
 
 ### Using Docker
 ```bash
-docker run -p 8080:8080 ghcr.io/pehlicd/unnecessarywebserver
+docker run -p 8080:8080 ghcr.io/pehlicd/unnecessarywebserver:latest -e API_PORT=8080
 ```
 
 ### Using Helm Chart
