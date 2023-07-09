@@ -1,0 +1,11 @@
+apiVersion: v2
+name: unnecessarywebserver
+description: A Helm chart for Kubernetes deployment for unnecessarywebserver
+type: application
+version: 0.1.0
+appVersion: "1.0.0"
+home: https://github.com/pehlicd/unnecessarywebserver
+maintainers:
+  - name: Furkan Pehlivan
+    url: https://github.com/pehlicd
+    email: furkanpehlivan34@gmail.com

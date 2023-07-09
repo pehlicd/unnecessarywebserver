@@ -9,6 +9,7 @@ import (
 
 func SetupRouter() *gin.Engine {
 	router := gin.New()
+	gin.SetMode(gin.ReleaseMode)
 	router.Use(
 		gin.LoggerWithWriter(gin.DefaultWriter, "/api/v1/healthz"),
 		gin.Recovery(),

@@ -1,4 +1,4 @@
-module github.com/pehlicd/unnecessary-web-server
+module github.com/pehlicd/unnecessarywebserver
 
 go 1.20
 

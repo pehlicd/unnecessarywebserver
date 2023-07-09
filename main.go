@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/pehlicd/unnecessary-web-server/api"
+	"github.com/pehlicd/unnecessarywebserver/api"
 )
 
 func main() {
