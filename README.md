@@ -1,4 +1,5 @@
 ![Docker Build](https://github.com/pehlicd/unnecessarywebserver/actions/workflows/main.yml/badge.svg?branch=main)
+[![Go Report Card](https://goreportcard.com/badge/github.com/pehlicd/unnecessarywebserver)](https://goreportcard.com/report/github.com/pehlicd/unnecessarywebserver)
 
 # Unnecessary Web Server
 
